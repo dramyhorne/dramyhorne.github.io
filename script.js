@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        center:true,
+        loop:true,
+        margin:10,
+        nav:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            400:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+  })
+})

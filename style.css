@@ -1,0 +1,11 @@
+.quote, .author {
+  background-color: antiquewhite;
+  color: #222;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.author {
+  font-size: 80%;
+}
