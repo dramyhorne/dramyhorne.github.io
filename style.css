@@ -9,3 +9,30 @@
 .author {
   font-size: 80%;
 }
+
+.card-margin {
+  margin: auto 15px;
+  max-width: 100%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.menu {
+  font-size: larger;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  padding: 15px;
+  border: 1px solid transparent;
+}
+
+.menu-item:hover {
+  border-top: 1px solid #00cd1d;
+  border-bottom: 1px solid #00cd1d;
+  color: #1853ff;
+}

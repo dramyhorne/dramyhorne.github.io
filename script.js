@@ -17,4 +17,10 @@ $(document).ready(function(){
             }
         }
   })
-})
+});
+
+window.addEventListener('load', function() {
+    let year = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = year;
+});
+

@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <title>Private Psychology Clinic Template</title>
@@ -18,23 +19,29 @@
 
 <body>
     <nav class="navbar navbar-expand-sm bg-light">
-        <ul class="navbar-nav">
-            <li class="nav-item">
+        <a class="navbar-brand" href="#"><img src="images/group.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav menu">
+            <li class="nav-item menu-item">
                 <a class="nav-link" href="#">About us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item menu-item">
                 <a class="nav-link" href="#">Services</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item menu-item">
                 <a class="nav-link" href="#">Fees</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item menu-item">
                 <a class="nav-link" href="#">FAQ</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item menu-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul> 
+        </div>
     </nav>
 
     <div class="container-fluid">
@@ -105,49 +112,49 @@
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist1.jpg" alt="Psychologist">
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Jane Doe</h4>
+                            <p class="card-text">CBT Therapist, Couple Therapist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist2.jpg" alt="Psychologist">
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Jane Doe</h4>
+                            <p class="card-text">Psychodynamic Therapist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist3.jpg" alt="Psychologist">
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Jane Doe</h4>
+                            <p class="card-text">CBT Therapist, Child Therapist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist4.jpg" alt="Psychologist">
                         <div class="card-body">
                             <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <p class="card-text">CBT Therapist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist5.jpg" alt="Psychologist">
                         <div class="card-body">
-                            <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title">Jane Doe</h4>
+                            <p class="card-text">Psychiatrist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                     <div class="item card"> 
                         <img class="card-img-top" src="images/psychologist6.jpg" alt="Psychologist">
                         <div class="card-body">
                             <h4 class="card-title">John Doe</h4>
-                            <p class="card-text">Some example text.</p>
-                            <a href="#" class="btn btn-primary">See Profile</a>
+                            <p class="card-text">Sport Psychologist</p>
+                            <a href="#" class="btn btn-info">See Profile</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +166,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col">
+                <div class="card-columns card-margin">
                 <div class="card bg-info text-white">
                     <div class="card-body">
                         <h3 class="card-title"><i class="fas fa-comments"></i> Consultation</h3>
@@ -168,50 +176,60 @@
                 </div>
                 <div class="card bg-info text-white">
                     <div class="card-body">
-                        <p class="card-text">
-                            <h3><i class="fas fa-male"></i> Adult Psychotherapy</h3>
-                            <p>Short text about adult psychotherapy and what disorders we can treat. Pharetra pharetra massa massa ultricies.</p>
-                        </p>
+                        <h3 class="card-title"><i class="fas fa-male"></i> Adult Psychotherapy</h3>
+                        <p class="card-text">Short text about adult psychotherapy and what disorders we can treat. Pharetra pharetra massa massa ultricies.</p>
+                    </div>
+                </div>
+                <div class="card bg-info text-white">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-child"></i> Child Psychotherapy</h3>
+                        <p class="card-text">Short text about child psychotherapy and what disorders we can treat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Neque vitae tempus quam pellentesque. </p>
+                    </div>
+                </div>
+                <div class="card bg-info text-white">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-user-friends"></i> Couple Therapy</h3>
+                        <p class="card-text">Short text about couple therapy and when you can need it. A diam maecenas sed enim ut sem. Arcu odio ut sem nulla pharetra diam sit amet.</p>
+                    </div>
+                </div>
+                <div class="card bg-info text-white">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-running"></i> Sport Psychology</h3>
+                        <p class="card-text">Short text about sport psychology and who can need it. Ac ut consequat semper viverra nam libero justo laoreet.</p>
+                    </div>
+                </div>
+                <div class="card bg-info text-white">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-clinic-medical"></i> Psychiatry</h3>
+                        <p class="card-text">Short text about psychiatry and what disorders we can treat. Habitant morbi tristique senectus et netus et malesuada. Phasellus faucibus scelerisque eleifend donec pretium vulputate.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card bg-info text-white">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <h3><i class="fas fa-child"></i> Child Psychotherapy</h3>
-                            <p>Short text about child psychotherapy and what disorders we can treat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium.</p>
-                        </p>
-                    </div>
-                </div>
-                <div class="card bg-info text-white">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <h3><i class="fas fa-user-friends"></i> Couple Therapy</h3>
-                            <p>Short text about couple therapy and when you can need it. A diam maecenas sed enim ut sem. Arcu odio ut sem nulla pharetra diam sit amet.</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-info text-white">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <h3><i class="fas fa-running"></i> Sport Psychology</h3>
-                            <p>Short text about sport psychology and who can need it. Ac ut consequat semper viverra nam libero justo laoreet.</p>
-                        </p>
-                    </div>
-                </div>
-                <div class="card bg-info text-white">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <h3><i class="fas fa-clinic-medical"></i> Psychiatry</h3>
-                            <p>Short text about psychiatry and what disorders we can treat. Habitant morbi tristique senectus et netus et malesuada. Phasellus faucibus scelerisque eleifend donec pretium vulputate.</p>
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">Contact</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <p>Private Psychology Clinic SomeName</p>
+                    <p>807 Stonybrook Dr. Brooklyn, NY 11229</p>
+                    <p><i class="fas fa-mobile-alt"></i> 202-555-0122</p>
+                    <p><i class="fas fa-at"></i> <a href="mailto: &#105;&#110;&#102;&#111;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;">&#105;&#110;&#102;&#111;&#064;&#101;&#120;&#097;&#109;&#112;&#108;&#101;&#046;&#099;&#111;&#109;</a></p>
+                </div>
+                <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0226173400879%2C40.667879144351105%2C-73.89112472534181%2C40.742184818893364&amp;layer=mapnik&amp;marker=40.705042344385426%2C-73.95687103271484" style="border: 1px solid #777"></iframe>
+            </div>
+        </div>
+        <footer class="row">
+            <div class="col">
+                <div class="text-center">
+                    <p>&copy; <span id="currentYear"></span> Private Psychology Clinic SomeName All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
 </body>
