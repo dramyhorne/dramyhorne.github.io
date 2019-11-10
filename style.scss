@@ -189,8 +189,75 @@ footer {
         bottom: 2px;
     }
 
+    .row-margin {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .img {
+        margin: 0;
+    }
+
     h1 {
         font-size: 2rem;
     }
 
+}
+
+#slidebox {
+    width: 230px;
+    height: 170px;
+    background-color: aliceblue;
+    color: inherit;
+    border: 1px solid #1853ff;
+    border-radius: 10px 80px;
+    padding: 15px;
+    z-index: 10;
+    -webkit-box-shadow: -3px -3px 30px 4px #A6A6A6;
+    box-shadow: -3px -3px 30px 4px #A6A6A6;
+}
+
+.call-icon {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.call-icon:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 2s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.questions {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.question-icon {
+    color: #1853ff;
+}
+
+.call-text {
+    font-family: 'Kanit', sans-serif;
+}
+
+#close {
+    cursor: pointer;
 }
