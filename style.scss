@@ -9,6 +9,7 @@
     padding: 4px 8px;
     border-radius: 5px;
     font-style: italic;
+    font-size: 1rem;
 }
 
 .author {
@@ -20,7 +21,6 @@
     margin: auto 15px;
     max-width: 100%;
 }
-
 
 .logo {
     width: 70px;
@@ -96,8 +96,66 @@
     margin-left: 10%;
 }
 
+.img {
+    max-width: 400px;
+    margin: 3px 10px;
+    border: 5px solid #e6f3ff;
+    padding: 3px; 
+}
+
+.img-left {
+    @extend .img;
+    float: left;
+}
+
+.img-right {
+    @extend .img;
+    float: right;
+}
+
+.services-link {
+    color: inherit;
+}
+
+.services-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.services:hover {
+    background-color: darken(#17a2b8, 7.5%);
+}
+
+.social-icons {
+    float: right;
+    word-spacing: 10px;
+}
+
+table {
+    margin: 30px auto;
+    min-width: 30%;
+}
+
+td, th {
+    padding: 15px;
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+}
+
+thead {
+    border-bottom: 1px solid darken(aliceblue, 20%);
+    border-top: 1px solid darken(aliceblue, 20%);
+    background-color: aliceblue;
+}
+
+tbody tr {
+    border-bottom: 1px dotted #ffe118;
+}
+
 footer {
-    padding: 20px 0px 15px 0px;
+    padding: 20px 0px 10px 0px;
     font-size: smaller;
     background-color: #f8f9fa;
+    margin-top: 20px;
+    border-top: 1px solid darken(#f8f9fa, 10%)
 }
