@@ -1,3 +1,9 @@
+$main-theme-color: #1853ff;
+$secondary-theme-color: #00cd1d;
+$tertiary-theme-color: #ffe118;
+$main-theme-color-lighter: aliceblue;
+$footer-color: #f8f9fa;
+
 .column {
     position: relative;
     width: 100%;
@@ -39,16 +45,16 @@
 }
 
 .menu-item:hover {
-    border-top: 1px solid #00cd1d;
-    border-bottom: 1px solid #00cd1d;
-    color: #1853ff;
+    border-top: 1px solid $secondary-theme-color;
+    border-bottom: 1px solid $secondary-theme-color;
+    color: $main-theme-color;
 }
 
 .active-item {
-    border-top: 1px solid #1853ff;
-    border-bottom: 1px solid #1853ff;
-    color: #1853ff;
-    background-color: aliceblue;
+    border-top: 1px solid $main-theme-color;
+    border-bottom: 1px solid $main-theme-color;
+    color: $main-theme-color;
+    background-color: $main-theme-color-lighter;
 }
 
 .section-title {
@@ -57,13 +63,13 @@
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 0.05em;
-    color: #1853ff;
+    color: $main-theme-color;
     text-align: center;
 }
 
 .main-title {
     padding-bottom: 15px;
-    border-bottom: 1px solid #00cd1d;
+    border-bottom: 1px solid $secondary-theme-color;
     width: 75%;
     margin: 20px auto;
 }
@@ -74,7 +80,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: aliceblue;
+    background-color: $main-theme-color-lighter;
     border-radius: 5px;
 }
 
@@ -86,7 +92,7 @@
 .staff-title {
     font-weight: 400;
     font-size: 1.3rem;
-    border-bottom: 1px dashed #ffe118;
+    border-bottom: 1px dashed $tertiary-theme-color;
     padding-bottom: 7px;
 }
 
@@ -138,26 +144,26 @@ table {
 
 td, th {
     padding: 15px;
-    border-left: 1px solid aliceblue;
-    border-right: 1px solid aliceblue;
+    border-left: 1px solid $main-theme-color-lighter;
+    border-right: 1px solid $main-theme-color-lighter;
 }
 
 thead {
-    border-bottom: 1px solid darken(aliceblue, 20%);
-    border-top: 1px solid darken(aliceblue, 20%);
-    background-color: aliceblue;
+    border-bottom: 1px solid darken($main-theme-color-lighter, 20%);
+    border-top: 1px solid darken($main-theme-color-lighter, 20%);
+    background-color: $main-theme-color-lighter;
 }
 
 tbody tr {
-    border-bottom: 1px dotted #ffe118;
+    border-bottom: 1px dotted $tertiary-theme-color;
 }
 
 footer {
     padding: 20px 0px 10px 0px;
     font-size: smaller;
-    background-color: #f8f9fa;
+    background-color: $footer-color;
     margin-top: 20px;
-    border-top: 1px solid darken(#f8f9fa, 10%)
+    border-top: 1px solid darken($footer-color, 10%)
 }
 
 @media screen and (max-width: 576px) {
@@ -207,9 +213,9 @@ footer {
 #slidebox {
     width: 230px;
     height: 170px;
-    background-color: aliceblue;
+    background-color: $main-theme-color-lighter;
     color: inherit;
-    border: 1px solid #1853ff;
+    border: 1px solid $main-theme-color;
     border-radius: 10px 80px;
     padding: 15px;
     z-index: 10;
@@ -251,7 +257,7 @@ footer {
 }
 
 .question-icon {
-    color: #1853ff;
+    color: $main-theme-color;
 }
 
 .call-text {
