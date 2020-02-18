@@ -3,6 +3,20 @@ $secondary-theme-color: #00cd1d;
 $tertiary-theme-color: #ffe118;
 $main-theme-color-lighter: aliceblue;
 $footer-color: #f8f9fa;
+$info-color: #128091;
+
+a {
+    color: #006ee4;
+}
+
+.btn-info {
+    background-color: $info-color;
+    border-color: $info-color;
+}
+
+.btn-info:hover {
+    background-color: darken($info-color, 7.5%);
+}
 
 .column {
     position: relative;
@@ -128,8 +142,12 @@ $footer-color: #f8f9fa;
     color: inherit;
 }
 
+.services {
+    background-color: $info-color;
+}
+
 .services:hover {
-    background-color: darken(#17a2b8, 7.5%);
+    background-color: darken($info-color, 7.5%);
 }
 
 .social-icons {
