@@ -1,3 +1,4 @@
+// Owl-Carousel settings (staff on homepage)
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         center:true,
@@ -19,6 +20,7 @@ $(document).ready(function(){
   })
 });
 
+// Slidebox settings ("call us now" slidebox)
 $(document).ready(function($) {
     $('#slidebox').slideBox({
         position: 'bottom right', // can be [bottom|middle|top] and [left|center|right]
@@ -26,13 +28,14 @@ $(document).ready(function($) {
         slideDuration: 500, // animation duration in ms
         target: '#slidebox-here', // can be a string (jQuery selector) or an offset (in px)
         closeLink: '#close' // a string that is the jQuery selector of the closing element
-    }).on('sb.hidden', function() {
+    })/*.on('sb.hidden', function() {
         console.log('hidden');
     }).on('sb.shown', function() {
         console.log('shown');
-    });   
+    });*/   
 });
 
+// Year in footer
 window.addEventListener('load', function() {
     let year = new Date().getFullYear();
     document.getElementById("currentYear").innerHTML = year;
