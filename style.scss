@@ -53,15 +53,33 @@ a {
 }
 
 .menu-item {
-    padding: 15px;
+    padding: 5px 15px;
     border: 1px solid transparent;
     letter-spacing: 0.02em;
 }
 
-.menu-item:hover {
-    border-top: 1px solid $secondary-theme-color;
+.menu-item:after {
+    display: block;
+    content: '';
     border-bottom: 1px solid $secondary-theme-color;
-    color: $main-theme-color;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;  
+}
+
+.menu-item:before {
+    @extend .menu-item:after
+}
+
+.menu-item:hover:after {
+    transform: scaleX(1)
+}
+
+.menu-item:hover:before {
+    @extend .menu-item:hover:after 
+}
+
+.nav-link {
+    padding: 1rem;
 }
 
 .active-item {
@@ -206,6 +224,30 @@ footer {
 .call-icon:hover {
     animation: shake 0.5s;
     animation-iteration-count: 2s;
+}
+
+.animate {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(2rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(2rem);
+      opacity: 0;
+    }
+}
+
+.slideIn {
+    animation-name: slideIn;
 }
 
 @keyframes shake {
