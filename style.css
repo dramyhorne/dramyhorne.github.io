@@ -63,14 +63,11 @@ a {
 }
 
 .nav-link {
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
-.active-item {
-  border-top: 1px solid #1853ff;
-  border-bottom: 1px solid #1853ff;
-  color: #1853ff;
-  background-color: aliceblue;
+.active-item > a {
+  color: #00cd1d;
 }
 
 .section-title {

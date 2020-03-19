@@ -79,14 +79,11 @@ a {
 }
 
 .nav-link {
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
-.active-item {
-    border-top: 1px solid $main-theme-color;
-    border-bottom: 1px solid $main-theme-color;
-    color: $main-theme-color;
-    background-color: $main-theme-color-lighter;
+.active-item > a {
+    color: $secondary-theme-color;
 }
 
 .section-title {
