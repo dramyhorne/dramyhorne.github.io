@@ -62,12 +62,14 @@ p {
     font-size: larger;
     margin: 0 auto;
     text-transform: uppercase;
+    float: right;
 }
 
 .menu-item {
     padding: 5px 15px;
     border: 1px solid transparent;
     letter-spacing: 0.02em;
+    float: right;
 }
 
 .menu-item:after {
