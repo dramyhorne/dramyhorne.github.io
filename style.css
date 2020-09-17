@@ -1,5 +1,5 @@
 a {
-  color: #006ce0;
+  color: #012a57;
 }
 
 .btn-info {
@@ -68,7 +68,7 @@ a {
 .menu-item:after, .menu-item:before {
   display: block;
   content: '';
-  border-bottom: 1px solid #00cd1d;
+  border-bottom: 1px solid #2c2c2e;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
@@ -82,7 +82,7 @@ a {
 }
 
 .active-item > a {
-  color: #00cd1d;
+  color: #2c2c2e;
 }
 
 .section-title {
@@ -91,7 +91,7 @@ a {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.05em;
-  color: #1853ff;
+  color: #012a57;
   text-align: center;
 }
 
