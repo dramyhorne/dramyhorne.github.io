@@ -23,6 +23,25 @@
 
     <title>Private Psychology Clinic Template</title>
 </head>
+    
+</style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 
 <body>
     <header>
@@ -47,6 +66,20 @@
         </div>
     </nav>
 
+
+<div class="row">
+  <div class="column">
+    <img src="building.png" alt="building" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="psych.png" alt="psych" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="office.png" alt="office" style="width:100%">
+  </div>
+</div>
+
+<!-- 
     <div class="container-fluid">
         <div class="row">
             <div class="column">
@@ -114,6 +147,9 @@
         </div>
     </div>
     </header>
+
+                        --> 
+
 
     <main class="container-fluid">
         <div class="row">
