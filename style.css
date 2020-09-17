@@ -2,6 +2,20 @@ a {
   color: #012a57;
 }
 
+
+
+div.container {
+      display:inline-block;
+    }
+
+p {
+      text-align:center;
+    }
+
+
+
+
+
 .btn-info {
   background-color: #128091;
   border-color: #128091;
