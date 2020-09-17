@@ -132,8 +132,8 @@
             <div class="column">
                 <header class="jumbotron text-center">
                     <h1 class="main-title">Amy Horne, Ph.D</h1>
-                    <h2>Clinical Psychologist</h2>
-                    <p>Short beginning text about clinic and services. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Sed libero enim sed faucibus. Ac ut consequat semper viverra nam libero justo laoreet. Habitant morbi tristique senectus et netus et malesuada. Phasellus faucibus scelerisque eleifend donec pretium vulputate. At lectus urna duis convallis convallis.</p>
+                    <h3>Clinical Psychologist</h3>
+                    <p>Little paragraph introducing yourself? We can also just </p>
                 </header>
             </div>
         </div>
@@ -207,15 +207,38 @@
             </div>
         </div>
         </section>
+        
+        
+        <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+        
+        
     </main>
 
+    
+    
+    
     <footer class="container-fluid">
         <div class="row">
             <div class="col">
                 <div class="text-left">
-                    <p>&copy; <span id="currentYear"></span> Private Psychology Clinic SomeName All Rights Reserved
-                        <span class="social-icons"><a href="https://www.facebook.com/" target="_blank" title="Facebook" rel="noopener"><i class="fab fa-facebook fa-2x"></i></a> <a href="https://www.instagram.com/" target="_blank" title="Instagram" rel="noopener"><i class="fab fa-instagram fa-2x"></i></a> <a href="https://www.twitter.com/" target="_blank" title="Twitter" rel="noopener"><i class="fab fa-twitter fa-2x"></i></a></span>
-                    </p>
+                    <p>&copy; <span id="currentYear"></span>Dr. Amy Horne All Rights Reserved</p>
                 </div>
             </div>
         </div>
