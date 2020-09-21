@@ -111,32 +111,11 @@ p {
 
 .main-title {
   padding-bottom: 15px;
-  border-bottom: 1px solid #00cd1d;
+  border-bottom: 1px solid #42608a;
   width: 75%;
   margin: 20px auto;
 }
 
-.about-staff {
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: aliceblue;
-  border-radius: 5px;
-}
-
-.img-staff {
-  width: 100%;
-  border-radius: 4px;
-}
-
-.staff-title {
-  font-weight: 400;
-  font-size: 1.3rem;
-  border-bottom: 1px dashed #ffe118;
-  padding-bottom: 7px;
-}
 
 .row-margin {
   margin-right: 10%;
