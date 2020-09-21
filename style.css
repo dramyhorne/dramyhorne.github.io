@@ -3,7 +3,8 @@ a {
 }
 
 span {
-  color: #31c9cc;
+ font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; 
+  font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
 }
 
 
