@@ -150,15 +150,9 @@ p {
   border: 5px solid #e6f3ff;
   padding: 3px;
   text-align:center;
+  position: relative;
 }
 
-.img-left {
-  float: left;
-}
-
-.img-right {
-  float: right;
-}
 
 .services-link {
   color: inherit;
