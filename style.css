@@ -298,3 +298,9 @@ footer {
     margin-left: 10px;
   }
 }
+
+.text {
+  color:red;
+  font-family: Baskerville;
+  font-size: 50px;
+}
