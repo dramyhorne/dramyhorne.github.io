@@ -13,7 +13,10 @@ p {
     }
 
 
-
+.nav-title {
+  { font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif; font-size: 24px; 
+    font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
+ }
 
 
 .btn-info {
@@ -111,7 +114,7 @@ p {
 
 .main-title {
   padding-bottom: 15px;
-  border-bottom: 1px solid #42608a;
+  border-bottom: 1px solid #012a57;
   width: 75%;
   margin: 20px auto;
 }
@@ -132,23 +135,6 @@ p {
   position: relative;
 }
 
-
-.services-link {
-  color: inherit;
-}
-
-.services-link:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-.services {
-  background-color: #128091;
-}
-
-.services:hover {
-  background-color: #0e626f;
-}
 
 .social-icons {
   float: right;
