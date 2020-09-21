@@ -300,7 +300,7 @@ footer {
 }
 
 .text {
-  color:red;
-  font-family: Baskerville;
-  font-size: 50px;
+  color:red!important;
+  font-family: Baskerville!important;
+  font-size: 50px!important;
 }
