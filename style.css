@@ -39,24 +39,6 @@ p {
 }
 
 
-
-.quote, .author {
-  background-color: antiquewhite;
-  color: #222;
-  padding: 4px 8px;
-  border-radius: 5px;
-  font-style: italic;
-}
-
-.author {
-  font-size: 80%;
-}
-
-.card-margin {
-  margin: auto 15px;
-  max-width: 100%;
-}
-
 .logo {
   width: 70px;
   height: 70px;
