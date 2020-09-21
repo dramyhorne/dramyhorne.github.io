@@ -304,3 +304,9 @@ text {
   font-family: Baskerville!important;
   font-size: 50px!important;
 }
+
+.navbar-default {
+  background-color: #bcd5f7;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
