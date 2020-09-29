@@ -96,6 +96,14 @@ p {
 }
 
 
+.section-div {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  width: 75%;
+  margin: 20px auto;
+}
+
+
 .row-margin {
   margin-right: 10%;
   margin-left: 10%;
