@@ -317,9 +317,10 @@ text {
   background-repeat: no-repeat;
  }
 
-.break {
-  word-break: break-all;
+.vcenter {
+  padding: 10% 0;
 }
+
 
 
 
