@@ -1,6 +1,7 @@
-a {
-  color: #012a57;
+a { 
+  color: #0000EE; 
 }
+
 
 
 
@@ -38,24 +39,6 @@ p {
   padding: 5px;
 }
 
-
-
-.quote, .author {
-  background-color: antiquewhite;
-  color: #222;
-  padding: 4px 8px;
-  border-radius: 5px;
-  font-style: italic;
-}
-
-.author {
-  font-size: 80%;
-}
-
-.card-margin {
-  margin: auto 15px;
-  max-width: 100%;
-}
 
 .logo {
   width: 70px;
@@ -315,3 +298,15 @@ footer {
     margin-left: 10px;
   }
 }
+
+text {
+  color:black!important;
+  font-family: Baskerville!important;
+  font-size: xx-large!important;
+}
+
+.navbar-default {
+  background-color: #bcd5f7;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
