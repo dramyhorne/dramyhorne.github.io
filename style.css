@@ -322,6 +322,11 @@ text {
 }
 
 
+.dropdown-menu.pull-left {
+    left:100;
+  }
+
+
 
 h1 { font-family: Verdana, Geneva, sans-serif; }
 h2, h3, h4, h5, h6, p { font-family: Verdana!important, Geneva, sans-serif; font-weight: normal!important;}
