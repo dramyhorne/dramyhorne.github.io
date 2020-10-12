@@ -317,11 +317,12 @@ text {
   background-repeat: no-repeat;
  }
 
-
+/*
 .ml-auto .dropdown-menu {
     left: auto !important;
     right: 0px !important;
 }
+*/
 
 .vcenter {
   padding: 15% 0;
