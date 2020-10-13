@@ -1,7 +1,4 @@
-# Psych Template
-
-Responsive website template for psychology clinic. Can be easy used also for small business website etc. 
-In Google Lighthouse the template gets 100 points in Accessibility and SEO audits, and 93 in Best Practises. 
+# Amy Horne, Ph.D. Website
 
 ## Technology
 The project uses:
